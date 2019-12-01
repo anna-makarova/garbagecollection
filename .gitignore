@@ -4,5 +4,6 @@ hs_err*
 *.#*
 release.properties
 pom.xml.*
+
 .idea
 *.iml

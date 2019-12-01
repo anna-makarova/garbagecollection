@@ -1,5 +1,7 @@
 package com.rest;
 
+import com.db.DatabaseUtil;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import javax.ws.rs.*;
@@ -9,13 +11,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+
 @Path("/")
 public class RestResources {
     private static final Logger log = Logger.getLogger(RestResources.class.getName());
-    @Path("test")
+    @Path("echo")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getTest(@QueryParam("id") Integer id, @QueryParam("string") String s) {
+    public Response doEcho(@QueryParam("id") Integer id, @QueryParam("string") String s) {
         try {
             JSONObject out = new JSONObject();
             out.put("id", id);
@@ -25,6 +28,25 @@ public class RestResources {
             return Response.status(Response.Status.OK).entity(out.toString()).build();
         } catch (Exception e) {
             log.log(Level.SEVERE, e.getMessage(), e);
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+        }
+
+    }
+    @Path("test")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getTest(@QueryParam("id") int id, @QueryParam("sting") String s) {
+        try {
+
+            String SQLStatement = "CALL test(" + id + ",'" + s +"')";
+            log.info("SQLStatement: " + SQLStatement);
+            JSONArray result = DatabaseUtil.executeStatement(SQLStatement);
+
+            String out = "{\"result\":" + result.toString() + "}";
+            log.info("Response: " + out);
+            return Response.status(Response.Status.OK).entity(out.toString()).build();
+
+        } catch (Exception e) {
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
         }
     }
