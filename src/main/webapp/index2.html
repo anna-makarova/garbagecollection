@@ -329,7 +329,7 @@
                             <div class="form-row">
                                 <div class="col-md-3 col-sm-3">
                                     <div class="form-group">
-                                        <label for="what" class="col-form-label">What?</label>
+                                        <label for="what" class="col-form-label" id="whatlabel">What?</label>
                                         <input name="keyword" type="text" class="form-control" id="what" placeholder="What are you looking for?">
                                     </div>
                                     <!--end form-group-->
@@ -1483,13 +1483,30 @@
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/popper.min.js"></script>
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBEDfNcQRmKQEyulDN8nGWjLYPm8s4YB58&libraries=places"></script>
     <!--<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>-->
 	<script src="assets/js/selectize.min.js"></script>
 	<script src="assets/js/masonry.pkgd.min.js"></script>
 	<script src="assets/js/icheck.min.js"></script>
 	<script src="assets/js/jquery.validate.min.js"></script>
 	<script src="assets/js/custom.js"></script>
+
+    <script >
+        $( document ).ready(function() {
+        $.ajax( "api/test?id=3&string=s" )
+          .done(function(data) {
+            $('#whatlabel').html(data.result[0].Description);
+          })
+          .fail(function(data) {
+            $('#whatlabel').html("Ошибка загрузки данных");
+          })
+          .always(function(data) {
+            console.log( "complete" );
+          });
+
+        });
+
+    </script>
 
 </body>
 <!-- Copied from http://themestarz.net/html/craigs/index2.html by Cyotek WebCopy 1.7.0.600, 28 октября 2019 г., 11:56:18 -->
