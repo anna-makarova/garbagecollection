@@ -47,6 +47,7 @@ public class RestResources {
             return Response.status(Response.Status.OK).entity(out.toString()).build();
 
         } catch (Exception e) {
+            log.severe(e.getMessage());
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
         }
     }

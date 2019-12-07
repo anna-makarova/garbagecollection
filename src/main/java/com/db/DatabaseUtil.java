@@ -7,8 +7,10 @@ import javax.ws.rs.core.Response;
 import java.sql.*;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class DatabaseUtil {
+    private static final Logger log = Logger.getLogger(DatabaseUtil.class.getName());
     private static Connection getConnection() {
         String USER ="adm";
         String PASS ="88imkHjNplcH3Okz";
@@ -81,7 +83,7 @@ public class DatabaseUtil {
             return result;
 
     } catch (SQLException e) {
-        throw new RuntimeException(e.getSQLState() + "|Sql error: " + e.getMessage());
+            throw new RuntimeException(e.getSQLState() + "|Sql error: " + e.getMessage());
     } finally {
         try {
             con.close();
