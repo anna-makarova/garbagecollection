@@ -35,7 +35,26 @@ public class RestResources {
     @Path("test")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getTest(@QueryParam("id") int id, @QueryParam("sting") String s) {
+    public Response getTest(@QueryParam("id") int id) {
+        try {
+
+            String SQLStatement = "CALL test(" + id + ")";
+            log.info("SQLStatement: " + SQLStatement);
+            JSONArray result = DatabaseUtil.executeStatement(SQLStatement);
+
+            String out = "{\"data\":" + result.toString() + "}";
+            log.info("Response: " + out);
+            return Response.status(Response.Status.OK).entity(out.toString()).build();
+
+        } catch (Exception e) {
+            log.severe(e.getMessage());
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+    @Path("test1")
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getTest1(@QueryParam("id") int id, @QueryParam("sting") String s) {
         try {
 
             String SQLStatement = "CALL test(" + id + ",'" + s +"')";

@@ -58,7 +58,7 @@ public class DatabaseUtil {
                     int columnCount = rsmd.getColumnCount();
 
                     while (rs.next()) {
-                        if (true) {
+                        if (false) {
                             Map obj = new LinkedHashMap();
                             for (int i = 1; i < columnCount + 1; i++) {
                                 String name = rsmd.getColumnLabel(i);

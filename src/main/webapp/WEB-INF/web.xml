@@ -29,7 +29,7 @@
     </security-constraint>
 
     <welcome-file-list>
-        <welcome-file>index2.html</welcome-file>
+        <welcome-file>garbagecollection_main.html</welcome-file>
     </welcome-file-list>
 
 
