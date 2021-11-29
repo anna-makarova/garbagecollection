@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0333e7ef-1c83-47f7-9316-dc7b969da086" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/webapp/assets/icons/n1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/assets/icons/n2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/assets/icons/n3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/assets/icons/n4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/assets/img/GC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/batareika.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/garbagecollection_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/lampocki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/metalbanki.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/paper.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/plastic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/webapp/steklo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/com/rest/RestResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/com/rest/RestResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/css/owl.carousel.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/css/owl.carousel.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/css/selectize.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/css/selectize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/fonts/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/fonts/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/infobox.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/infobox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/jquery-validate.bootstrap-tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/jquery-validate.bootstrap-tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/masonry.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/owl.carousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/readmore.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/readmore.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/richmarker-compiled.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/richmarker-compiled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/assets/js/selectize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/assets/js/selectize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/blog-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/bookmarks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/change-password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/edit-ad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/image-header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/index-4_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/webapp/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-2-items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-3-items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-4-items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-compact-full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-compact-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-grid-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-list-compact-full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-list-compact-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-list-full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-list-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-masonry-full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/listing-masonry-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/messaging.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/my-ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/my-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/seller-detail-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/seller-detail-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/sellers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/single-listing-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/single-listing-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/single-listing-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/sold-items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/submit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/webapp/typography.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1UhOURhLT7IvE27PNFAXJS1i0dT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0333e7ef-1c83-47f7-9316-dc7b969da086" name="Default Changelist" comment="" />
+      <created>1575805376533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575805376533</updated>
+      <workItem from="1575805382644" duration="481000" />
+      <workItem from="1575919410888" duration="781000" />
+      <workItem from="1575985672285" duration="1246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

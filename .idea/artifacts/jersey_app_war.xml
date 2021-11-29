@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jersey-app:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>jersey-app</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="jersey-app.war">
+      <element id="artifact" artifact-name="jersey-app:war exploded" />
+    </root>
+  </artifact>
+</component>

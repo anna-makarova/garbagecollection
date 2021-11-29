@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Theme Starz">
+
+    <title>Craigs - Directory Listing Template</title>
+    <link rel="stylesheet" href="http://www.themestarz.net/html/iframe-style.css">
+</head>
+
+<body>
+
+<div id="ts-envato-header">
+    <div class="preview__envato-logo">
+        <a href="https://themeforest.net/item/craigs-easy-buy-sell-directory-template/20631666?ref=ThemeStarz">Envato Market</a>
+    </div>
+    <div class="preview__actions">
+        <div class="preview__action--buy" style="">
+            <a class="e-btn--3d -color-primary" href="https://themeforest.net/item/craigs-easy-buy-sell-directory-template/20631666?ref=ThemeStarz">Buy now</a>
+        </div>
+        <div class="preview__action--close">
+            <a href="#" id="remove-frame">
+                <i class="e-icon -icon-cancel"></i>
+                <span>Remove Frame</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<iframe id="iframe" src="index2.html">
+
+</iframe>
+
+<script>
+
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    var parameter = url.searchParams.get("storefront");
+    if( parameter !== "envato-elements" ){
+        this.top.location !== this.location && (this.top.location = this.location);
+    }
+    else {
+        window.location.href = document.getElementById("iframe").src;
+    }
+
+    (function () {
+
+        document.getElementById("remove-frame").onclick = function() {
+            window.location.href = document.getElementById("iframe").src;
+        };
+
+
+    })();
+
+</script>
+
+</body>
+<!-- Copied from http://themestarz.net/html/craigs/index.html by Cyotek WebCopy 1.7.0.600, 28 октября 2019 г., 11:56:18 -->
+</html>
